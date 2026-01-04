@@ -64,3 +64,9 @@ export ARCHFLAGS="-arch $(uname -m)"
 
 alias ls='colorls'
 
+# Cargo Aliases
+alias cr='cargo run'
+alias ct='cargo test'
+alias ctl='cargo test --lib'
+alias ctt='cargo test --test '*''
+
