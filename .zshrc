@@ -70,3 +70,7 @@ alias ct='cargo test'
 alias ctl='cargo test --lib'
 alias ctt="cargo test --test '*'"
 
+# Git Aliases
+alias gad='git add .'
+alias gpom='git push origin main'
+
