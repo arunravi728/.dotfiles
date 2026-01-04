@@ -68,5 +68,5 @@ alias ls='colorls'
 alias cr='cargo run'
 alias ct='cargo test'
 alias ctl='cargo test --lib'
-alias ctt='cargo test --test '*''
+alias ctt="cargo test --test '*'"
 
