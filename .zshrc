@@ -59,8 +59,20 @@ export LANG=en_US.UTF-8
 #   export EDITOR='nvim'
 # fi
 
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
+if [ -f "$HOME/Documents/fcd/fcd.sh" ]; then
+      source "$HOME/Documents/fcd/fcd.sh"
+fi
+
 # Compilation flags
 export ARCHFLAGS="-arch $(uname -m)"
 
 alias ls='colorls'
+alias pomo='./pomo'
+alias agi='agy'
 
+# Added by Antigravity CLI installer
+export PATH="/Users/arun/.local/bin:$PATH"
+export PATH="/Users/arun/.local/bin:$PATH"
