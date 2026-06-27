@@ -70,7 +70,7 @@ fi
 export ARCHFLAGS="-arch $(uname -m)"
 
 alias ls='colorls'
-alias pomo='./pomo'
+alias pomo='$HOME/pomo'
 alias agi='agy'
 
 # Added by Antigravity CLI installer
